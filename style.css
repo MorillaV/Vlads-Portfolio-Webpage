@@ -1,23 +1,52 @@
-body{
-  background-color:#fff;
-  margin:0;
+body {
+  background-color: #fff;
+  margin: 0;
 }
 
 header {
   background-color: green;
 }
 
-header h1 {
-  margin: 0;
-  color: white;
-  font-family: 'Abril Fatface', cursive;
-  font-size:52px;
-  /* text-align: center; */
-  text-align: center;
-  padding: 20px;
+h1 {
+  font-family: Georgia, cursive;
+  font-size: 52px;
+  color: #000000;
+  font-weight: 400;
+  text-align: center; 
+  text-decoration: none;
+  text-transform: none;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-style: normal;
 }
 
-.linebar{
+p {
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  color: #000;
+  font-weight: normal;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+article {
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  color: #000;
+  font-weight: normal;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+.linebar {
   width: 200px;
   height: 50px;
   color: #000000;
@@ -25,4 +54,23 @@ header h1 {
 
 footer {
   background-color: green;
+}
+
+h3 {
+  font-family: Georgia, cursive;
+  font-size: 24px; 
+  color: #000000;
+  font-weight: 400;
+  text-align: center; 
+  text-decoration: none;
+  text-transform: none;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+ol {
+  list-style-type: decimal; 
+  margin-left: 20px; 
+  padding-left: 10px; 
 }
